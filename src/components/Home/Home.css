@@ -1,0 +1,109 @@
+
+
+.home_header {
+   margin: 15px;
+   background-color: #3D4650;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.profile {
+   display: grid;
+   grid-template-columns: auto 1fr;
+   align-items: center;
+   text-align: center;
+   margin: 0 10px;
+   padding: 5px 0;
+}
+
+.user_name {
+   margin-right: 50px;
+}
+
+.user_balance {
+   margin: 10px 20px 20px;
+}
+
+.h_header_menu {
+   display: flex;
+   justify-content: space-between;
+   margin: 10px 20px 7px;
+}
+
+.h_header_button {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto 7px;
+   align-items: center;
+   width: 72px;
+   height: 33px;
+   background-color: #0364CE;
+   border-radius: 10px;
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 13px;
+}
+
+/* ---------------- */
+
+.home_nav {
+   background: rgba(61, 70, 80, 0.77);
+   border-radius: 10px;
+   margin: 40px 15px 15px;
+   display: flex;
+   justify-content: space-between;
+   padding: 2px;
+}
+
+.h_nav_item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   width: 85px;
+   height: 40px;
+   color: #fff;
+   text-decoration: none;
+   font-size: 11px;
+   font-weight: 400;
+   line-height: 40px;
+   background-color: transparent;
+}
+
+.h_nav_item.active {
+   background-color: #0364CE;
+}
+
+.home_content {
+   background-color: #3D4650;
+   margin: 15px;
+   border-radius: 10px;
+}
+
+
+
+/* GAMES ---------------------------------------- */
+
+.Games {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 15px;
+   gap: 12px;
+}
+
+.games_item {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 50px;
+   background-color: #0364CE;
+   padding: 9px 18px;
+   border-radius: 10px;
+}
+
+.g_item_image {
+   width: 40px;
+   height: 40px;
+}
