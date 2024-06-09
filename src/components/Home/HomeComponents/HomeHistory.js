@@ -1,10 +1,65 @@
 import React from 'react';
 import '../Home.css';
+import HistoryItem from './HistoryItem.js';
 
 function HomeHistory() {
    return (
      <div className="HomeHistory">
-         <h1>Home History</h1>
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='done'
+          />
+         
+         <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='error'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='done'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='done'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='done'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='error'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='error'
+          />
+
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='send'
+            amount='5,000.00 B'
+            status='done'
+          />
      </div>
    );
  }
