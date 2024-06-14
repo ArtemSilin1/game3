@@ -1,0 +1,18 @@
+<svg width="80.000000" height="80.000000" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_26_44_dd" x="0.000000" y="0.000000" width="80.000000" height="80.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="3.33333" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_26_44_dd)">
+		<circle id="Ellipse 7" cx="40.000000" cy="40.000000" r="30.000000" fill="#CE740A" fill-opacity="1.000000"/>
+	</g>
+	<circle id="Ellipse 4" cx="40.500000" cy="40.500000" r="27.500000" fill="#5B5B5B" fill-opacity="1.000000"/>
+	<circle id="Ellipse 4" cx="40.500000" cy="40.500000" r="26.500000" stroke="#CE740A" stroke-opacity="1.000000" stroke-width="2.000000"/>
+	<path id="Vector" d="M40.1 22.42C35.24 22.42 31.26 26.98 31.26 32.59C31.26 38.2 35.24 42.75 40.1 42.75C44.96 42.75 48.94 38.2 48.94 32.59C48.94 26.98 44.96 22.42 40.1 22.42ZM30.87 42.75C26.18 42.96 22.42 46.49 22.42 50.89L22.42 54.95L57.78 54.95L57.78 50.89C57.78 46.49 54.07 42.96 49.34 42.75C46.95 45.23 43.68 46.82 40.1 46.82C36.52 46.82 33.25 45.23 30.87 42.75Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

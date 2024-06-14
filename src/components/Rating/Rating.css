@@ -1,0 +1,66 @@
+.Rating {
+   text-align: center;
+}
+
+.rating_title {
+   border-bottom: 1px solid #00D1FF;
+   padding: 15px 0;
+}
+
+.rating_header {
+   margin: 10px;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.top_places {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 50px;
+   text-align: center;
+}
+
+.first_place {
+   transform: translateY(-50px);
+}
+
+.player_cash {
+   font-size: 12px;
+}
+
+.other_places {
+   height: 380px;
+   overflow-y: auto;
+}
+
+/*Rating Place ----------------------------------- */
+
+.rating_place {
+   width: 300px;
+   height: 50px;
+   background-color: #3D4650;
+   margin: 10px auto;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px;
+}
+
+
+/*INFO Popup ---------------------------------------------- */
+
+.popup_info_description {
+   width: 240px;
+   margin: 30px auto;
+}
+
+.conditions {
+   width: 300px;
+   margin: 0 auto;
+}
+
+.conditions p {
+   font-size: 21px;
+   text-align: left;
+}

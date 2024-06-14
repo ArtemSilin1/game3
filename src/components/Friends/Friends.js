@@ -9,7 +9,7 @@ function Friends() {
   const cash = 0;
 
   const [isButtonActive, setIsButtonActive] = useState(false);
-  const [tagsCount, setTagsCount] = useState(0);
+  const [friendsCount, setFriendsCount] = useState(0);
 
   useEffect(() => {
     setIsButtonActive(cash > 0);
@@ -19,7 +19,7 @@ function Friends() {
   useEffect(() => {
     const container = document.getElementById('friends_list');
     const tags = container.querySelectorAll('.friend_item');
-    setTagsCount(tags.length);
+    setFriendsCount(tags.length);
   }, []);
 
   return (
@@ -34,9 +34,10 @@ function Friends() {
         <p className='friends_desc'>Приглашай друзей и получай 10% прибыли</p>
       </div>
 
-      <p className='friends_counter'>Кол-во друзей: {tagsCount}</p>
+      <p className='friends_counter'>Кол-во друзей: {friendsCount}</p>
 
       <div className='friends_list' id='friends_list'>
+        <FriendItem />
         <FriendItem />
         <FriendItem />
         <FriendItem />
