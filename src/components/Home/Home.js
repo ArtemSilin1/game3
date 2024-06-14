@@ -23,15 +23,15 @@ function Home() {
           
           <p className='user_balance'>5,000.00 B</p>
           <div className='h_header_menu'>
-            <p className='h_header_button'>Send</p>
-            <p className='h_header_button'>Get</p>
-            <p className='h_header_button'>Buy</p>
+            <p className='h_header_button'>Отправить</p>
+            <p className='h_header_button'>Получить</p>
+            <p className='h_header_button'>Купить</p>
           </div>
         </div>
 
         <div className='home_nav'>
-          <p className={`h_nav_item ${activeTab === 'games' ? 'active' : ''}`} onClick={() => handleTabClick('games')}>Games</p>
-          <p className={`h_nav_item ${activeTab === 'history' ? 'active' : ''}`} onClick={() => handleTabClick('history')}>History</p>
+          <p className={`h_nav_item ${activeTab === 'games' ? 'active' : ''}`} onClick={() => handleTabClick('games')}>Игры</p>
+          <p className={`h_nav_item ${activeTab === 'history' ? 'active' : ''}`} onClick={() => handleTabClick('history')}>История</p>
           <p className={`h_nav_item ${activeTab === 'vip' ? 'active' : ''}`} onClick={() => handleTabClick('vip')}>VIP</p>
         </div>
         

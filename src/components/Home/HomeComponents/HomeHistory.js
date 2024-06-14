@@ -7,59 +7,46 @@ function HomeHistory() {
      <div className="HomeHistory">
           <HistoryItem
             user_id='547184746'
-            transaction_type='send'
+            transaction_type='Отправка'
             amount='5,000.00 B'
-            status='done'
+            status='Успешно'
           />
          
-         <HistoryItem
+          <HistoryItem
             user_id='547184746'
-            transaction_type='send'
+            transaction_type='Отправка'
             amount='5,000.00 B'
-            status='error'
+            status='Ошибка'
           />
 
           <HistoryItem
             user_id='547184746'
-            transaction_type='send'
+            transaction_type='Отправка'
             amount='5,000.00 B'
-            status='done'
+            status='Успешно'
+          />
+         
+          <HistoryItem
+            user_id='547184746'
+            transaction_type='Отправка'
+            amount='5,000.00 B'
+            status='Ошибка'
           />
 
           <HistoryItem
             user_id='547184746'
-            transaction_type='send'
+            transaction_type='Отправка'
             amount='5,000.00 B'
-            status='done'
+            status='Успешно'
           />
-
+         
           <HistoryItem
             user_id='547184746'
-            transaction_type='send'
+            transaction_type='Отправка'
             amount='5,000.00 B'
-            status='done'
+            status='Ошибка'
           />
 
-          <HistoryItem
-            user_id='547184746'
-            transaction_type='send'
-            amount='5,000.00 B'
-            status='error'
-          />
-
-          <HistoryItem
-            user_id='547184746'
-            transaction_type='send'
-            amount='5,000.00 B'
-            status='error'
-          />
-
-          <HistoryItem
-            user_id='547184746'
-            transaction_type='send'
-            amount='5,000.00 B'
-            status='done'
-          />
      </div>
    );
  }

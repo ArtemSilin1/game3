@@ -18,10 +18,12 @@
 
 .user_name {
    margin-right: 50px;
+   font-size: 24px;
 }
 
 .user_balance {
    margin: 10px 20px 20px;
+   font-size: 25px;
 }
 
 .h_header_menu {
@@ -42,6 +44,11 @@
    font-size: 13px;
    font-weight: 400;
    line-height: 13px;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.h_header_button:active {
+   background-color: #015aba;
 }
 
 /* ---------------- */
@@ -52,7 +59,7 @@
    margin: 40px 15px 15px;
    display: flex;
    justify-content: space-between;
-   padding: 2px;
+   padding: 3px;
 }
 
 .h_nav_item {
@@ -64,8 +71,8 @@
    height: 40px;
    color: #fff;
    text-decoration: none;
-   font-size: 11px;
-   font-weight: 400;
+   font-size: 14px;
+   font-weight: 700;
    line-height: 40px;
    background-color: transparent;
    transition: background-color .4s ease;
@@ -80,7 +87,7 @@
    margin: 15px;
    border-radius: 10px;
    width: 360px;
-   height: 360px;
+   height: 350px;
    overflow-y: auto;
 }
 
@@ -132,12 +139,12 @@
 }
 
 .h_i_title {
-   font-size: 11px;
+   font-size: 14px;
    margin-bottom: 7px;
 }
 
 .user_info {
-   font-size: 8px;
+   font-size: 12px;
 }
 
 .done {
@@ -162,14 +169,14 @@
 
 .vip_list_item {
    margin-top: 10px;
-   font-size: 10px;
+   font-size: 15px;
 }
 
 .price_container {
    font-size: 14px;
    border: 1px solid #fff;
-   width: 200px;
-   height: 40px;
+   width: 150px;
+   height: 30px;
    margin: 30px auto 0;
    display: flex;
    align-items: center;
@@ -188,4 +195,8 @@
    justify-content: center;
    padding: 5px 10px;
    border-radius: 15px;
+}
+
+.button_to_buy:active {
+   background-color: #015aba;
 }

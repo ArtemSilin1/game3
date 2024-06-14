@@ -27,28 +27,28 @@ function App() {
           <li className='navigation_item'>
             <NavLink to='/rating' className='nav_link'>
               <img alt='' src={StarIcon} className='nav_image' />
-              <p className='nav_text'>Rating</p>
+              <p className='nav_text'>Рейтинг</p>
             </NavLink>
           </li>
 
           <li className='navigation_item'>
           <NavLink to='/' className='nav_link'>
             <img alt='' src={HomeIcon} className='nav_image' />
-            <p className='nav_text'>Home</p>
+            <p className='nav_text'>Домой</p>
           </NavLink>
           </li>
 
           <li className='navigation_item'>
             <NavLink to='/tasks' className='nav_link'>
               <img alt='' src={TasksIcon} className='nav_image' />
-              <p className='nav_text'>Tasks</p>
+              <p className='nav_text'>Задания</p>
             </NavLink>
           </li>
 
           <li className='navigation_item'>
             <NavLink to='/friends' className='nav_link'>
               <img alt='' src={FriendsIcon} className='nav_image' />
-              <p className='nav_text'>Friends</p>
+              <p className='nav_text'>Друзья</p>
             </NavLink>
           </li>
         </ul>
